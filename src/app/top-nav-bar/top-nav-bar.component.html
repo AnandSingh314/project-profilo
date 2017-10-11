@@ -1,0 +1,62 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-md navbar-dark indigo scrolling-navbar" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <logo>
+    <a class="logo navbar-brand " href="#">
+        <img height="30" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+        BRAND
+    </a>
+  </logo>
+
+
+  <!-- Collapsible content -->
+  <links>
+    <div class="navbar-nav mr-auto"></div>
+    <!-- Links -->
+     <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link waves-light" mdbRippleRadius>Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbRippleRadius>Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbRippleRadius>Pricing</a>
+      </li>
+
+      <!-- Dropdown -->
+       <li class="nav-item dropdown" dropdown>
+        <a dropdownToggle class="nav-link dropdown-toggle waves-light" mdbRippleRadius>
+                      Basic dropdown<span class="caret"></span></a>
+        <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+          <a class="dropdown-item waves-light" mdbRippleRadius href="#">Action</a>
+          <a class="dropdown-item waves-light" mdbRippleRadius href="#">Another action</a>
+          <a class="dropdown-item waves-light" mdbRippleRadius href="#">Something else here</a>
+          <div class="divider dropdown-divider"></div>
+          <a class="dropdown-item waves-light" mdbRippleRadius href="#">Separated link</a>
+        </div>
+      </li>
+
+    </ul> 
+
+    <!-- Search form -->
+    <!-- <form class="navbar-text form-inline">
+        <div class="md-form form-group mr-sm-2">
+            <i class="fa fa-search prefix" aria-hidden="true"></i>
+            <input mdbActive type="text" class="form-control" id="form9" name="" mdbInputValidate>
+            <label class="active white-text" for="form9">Search</label>
+        </div>
+    </form> -->
+
+    <div class="">
+        <i class="fa fa-facebook fa-lg pr-5" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-lg pr-5" aria-hidden="true"></i>
+        <i class="fa fa-github fa-lg pr-5" aria-hidden="true"></i>
+    </div>
+
+  </links>
+  <!-- Links -->
+  <!-- Collapsible content -->
+
+</mdb-navbar>
