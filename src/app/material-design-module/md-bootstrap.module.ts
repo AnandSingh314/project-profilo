@@ -7,6 +7,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     CommonModule,
     MDBBootstrapModule.forRoot()
   ],
+  exports: [],
   schemas: [NO_ERRORS_SCHEMA],
   declarations: []
 })
