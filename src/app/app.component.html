@@ -1,8 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
+
+
 <!-- top navigation bar -->
-<app-top-nav-bar></app-top-nav-bar>
- 
+<app-top-nav-bar (sideNavCtrlBtnTrigger)="sideNavBarCmp.sidenav.toggle();"></app-top-nav-bar>
+
 <!-- side navigation bar -->
+<app-side-nav-bar #sideNavBarCmp ></app-side-nav-bar>
 
 <!-- main content of page -->
 <div class="container">

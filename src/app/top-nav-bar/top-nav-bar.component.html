@@ -1,6 +1,13 @@
 <!--Navbar-->
 <mdb-navbar SideClass="navbar fixed-top navbar-expand-md navbar-dark indigo scrolling-navbar" [containerInside]="false">
 
+   <!-- SideNav slide-out button -->
+   <a (click)="sideNavCtrlBtnTrigger.emit($event);" 
+        mdbRippleRadius class="px-3">
+     <i class="fa fa-bars fa-lg"></i>
+  </a>
+   <!--/. SideNav slide-out button -->
+
   <!-- Navbar brand -->
   <logo>
     <a class="logo navbar-brand " href="#">
@@ -14,7 +21,7 @@
   <links>
     <div class="navbar-nav mr-auto"></div>
     <!-- Links -->
-     <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link waves-light" mdbRippleRadius>Home<span class="sr-only">(current)</span></a>
       </li>
@@ -26,7 +33,7 @@
       </li>
 
       <!-- Dropdown -->
-       <li class="nav-item dropdown" dropdown>
+      <li class="nav-item dropdown" dropdown>
         <a dropdownToggle class="nav-link dropdown-toggle waves-light" mdbRippleRadius>
                       Basic dropdown<span class="caret"></span></a>
         <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
@@ -38,7 +45,7 @@
         </div>
       </li>
 
-    </ul> 
+    </ul>
 
     <!-- Search form -->
     <!-- <form class="navbar-text form-inline">
@@ -50,9 +57,9 @@
     </form> -->
 
     <div class="">
-        <i class="fa fa-facebook fa-lg pr-5" aria-hidden="true"></i>
-        <i class="fa fa-twitter fa-lg pr-5" aria-hidden="true"></i>
-        <i class="fa fa-github fa-lg pr-5" aria-hidden="true"></i>
+      <i class="fa fa-facebook fa-lg pr-5" aria-hidden="true"></i>
+      <i class="fa fa-twitter fa-lg pr-5" aria-hidden="true"></i>
+      <i class="fa fa-github fa-lg pr-5" aria-hidden="true"></i>
     </div>
 
   </links>

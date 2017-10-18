@@ -1,0 +1,33 @@
+.app-side-bar-container {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+   
+    overflow: hidden;
+    font-family: Roboto,sans-serif;
+  }
+
+  .app-side-bar-img {
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
+    background-color: #224562;    
+  }
+  
+  .app-side-bar-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .app-side-bar-sidenav {
+    z-index: 999;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }

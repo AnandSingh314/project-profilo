@@ -9,11 +9,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './top-nav-bar/top-nav-bar.component';
+import { SideNavBarComponent } from './side-nav-bar/side-nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopNavBarComponent
+    TopNavBarComponent,
+    SideNavBarComponent
   ],
   imports: [
     BrowserModule,
